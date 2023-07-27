@@ -35,6 +35,7 @@ export default function Quiz() {
 
     /** Prev button event handler */
     function onPrev(){
+        console.log('On onPrev click')
         if(trace > 0){
             /** decrease the trace value by one using MovePrevQuestion */
             dispatch(MovePrevQuestion());
