@@ -1,0 +1,84 @@
+.container ol li{
+    font-size: 1.4em;
+    color: #cecece;
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.start .btn{
+    padding: .2em 1.7em;
+    border: none;
+    border-radius: .1em;
+    font-size: 1.2em;
+    color: #202020;
+    text-decoration: none;
+    background-color: #faff5a;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+#form .userid{
+    padding: .7em 2em;
+    width: 50%;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+}
+
+
+/* Default styles */
+/* ... Your existing code ... */
+
+/* Media Query for Tablets (e.g., iPad) */
+@media (max-width: 768px) {
+    .start {
+      padding-top: 1em; /* Adjust padding for tablet screens */
+    }
+    
+    .start .btn {
+      font-size: 1em; /* Adjust font size for tablet screens */
+    }
+  
+    #form .userid {
+      width: 100%; /* Adjust width for tablet screens */
+    }
+    /* Additional styles specific to tablet screens */
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media (max-width: 480px) {
+    .container ol li {
+      font-size: 1.2em; /* Adjust font size for smaller screens */
+    }
+  
+    .start {
+      padding-top: 0.5em; /* Adjust padding for smaller screens */
+    }
+  
+    .start .btn {
+      font-size: 1em; /* Adjust font size for smaller screens */
+      padding: 0.5em 1.5em; /* Adjust padding for smaller screens */
+    }
+  
+    #form {
+      flex-direction: column; /* Stack the elements vertically */
+      align-items: center; /* Center-align elements */
+      margin-top: 2em; /* Adjust margin for smaller screens */
+    }
+  
+    #form .userid {
+      width: 100%; /* Adjust width for smaller screens */
+      margin-top: 1em; /* Adjust margin for smaller screens */
+      padding: 0.5em 1em; /* Adjust padding for smaller screens */
+    }
+    /* Additional styles specific to mobile screens */
+  }
+  

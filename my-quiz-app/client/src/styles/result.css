@@ -1,0 +1,106 @@
+.flex-center
+{
+    display: flex;
+    justify-content: center;    
+    flex-direction: column;
+    border: 1px solid #cecece;
+    padding: 3em 4em;
+    gap: 1em;
+}
+
+.container .flex
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container .flex span 
+{
+    font-size: 1.4em;
+    color: #cecece;
+}
+
+.container .flex span.achive 
+{
+    font-weight: bold;
+    color: #ff2a66;
+    color: #2aff95;
+}
+
+table 
+{
+    width: 100%;
+}
+
+.table-header 
+{
+    color: #cecece;
+    font-size: 1.1em;
+    text-align: center;
+    background: #212121;
+    padding: 18px 0;
+}
+
+.table-body 
+{
+    font-size: 1.1em;
+    text-align: center;
+    /* color: #cecece; */
+    background: #d8d8d8;
+    padding: 18px 0;
+}
+
+.table-header > tr > td
+{
+    border: 1px solid #faff5a;   
+}
+
+/* Default styles */
+/* ... Your existing code ... */
+
+/* Media Query for Tablets (e.g., iPad) */
+@media (max-width: 768px) {
+    .flex-center {
+      padding: 2em; /* Adjust padding for tablet screens */
+      gap: 0.5em; /* Adjust gap for tablet screens */
+    }
+  
+    .container .flex {
+      flex-direction: column; /* Stack the elements vertically */
+      align-items: center; /* Center-align elements */
+    }
+  
+    .container .flex span {
+      font-size: 1.2em; /* Adjust font size for tablet screens */
+    }
+  
+    .table-header,
+    .table-body {
+      font-size: 1em; /* Adjust font size for tablet screens */
+    }
+    /* Additional styles specific to tablet screens */
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media (max-width: 480px) {
+    .flex-center {
+      padding: 1em; /* Adjust padding for smaller screens */
+      gap: 0.3em; /* Adjust gap for smaller screens */
+    }
+  
+    .container .flex span {
+      font-size: 1em; /* Adjust font size for smaller screens */
+    }
+  
+    .table-header,
+    .table-body {
+      font-size: 0.9em; /* Adjust font size for smaller screens */
+    }
+  
+    .table-header > tr > td {
+      border: 1px solid #cecece; /* Adjust border color for smaller screens */
+    }
+    /* Additional styles specific to mobile screens */
+  }
+  

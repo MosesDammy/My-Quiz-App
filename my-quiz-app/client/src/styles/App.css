@@ -170,3 +170,26 @@ input[type=radio]:checked ~ .text-primary{
 .checked::before{
   background: var(--primary-color)
 }
+
+
+
+/* Default styles */
+/* ... Your existing code ... */
+
+/* Media Query for Tablets (e.g., iPad) */
+@media (max-width: 768px) {
+  .container {
+    width: 90%; /* Adjust the width for tablet screens */
+    padding: 10px; /* Adjust the padding for tablet screens */
+  }
+  /* Additional styles specific to tablet screens */
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .container {
+    width: 100%; /* Adjust the width for smaller screens */
+    padding: 5px; /* Adjust the padding for smaller screens */
+  }
+  /* Additional styles specific to mobile screens */
+}
